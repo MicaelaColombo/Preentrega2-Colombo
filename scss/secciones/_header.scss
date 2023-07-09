@@ -1,0 +1,39 @@
+
+
+.header {
+    background-color: dodgerblue;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header li {
+    text-transform: uppercase;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.ul li {
+    margin: 2px;
+    padding: 10px;
+}

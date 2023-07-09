@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----HEADER INICIO----- */
+
+.header {
+    background-color: dodgerblue;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header li {
+    text-transform: uppercase;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.ul li {
+    margin: 2px;
+    padding: 10px;
+}
+
+
+/* ----MAIN INICIO----- */
+
+
+
+.div-img {
+    display: flex;
+    background-image: url(../recursos/banner-filmstretch.jpg);
+    flex-direction: column;
+    align-items: center !important;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh - 70px);
+    padding: 0;
+    justify-content: center;
+}
+
+
+/* ----FOOTER INCIO---- */
+
+.footer {
+    background-color: dodgerblue;
+    border: 1px solid;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer li {
+    text-transform: uppercase;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.ul-footer {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ul-footer li {
+    margin: 2px;
+    padding: 10px;
+}
+
+
+/* ----- MAIN NOSOTROS ---- */
+
+.main-nos {
+    display: flex;
+    background-color: rgb(119, 227, 241);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 2px;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 2px;
+}
+
+.texto_nos {
+    display: table-column;
+    box-shadow: 2px 2px 2px;
+}
+
+
+.img1 {
+    width: 500px;
+    /* Ancho de la imagen */
+    height: auto;
+    /* Altura automática de la imagen para mantener la proporción */
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
+    box-shadow: 2px 2px 2px;
+
+
+}
+
+.h1 {
+    font-size: 24px;
+    /* Tamaño de fuente del encabezado */
+    margin-bottom: 10px;
+    /* Espacio inferior del encabezado */
+    vertical-align: text-bottom;
+}
+
+
+.p {
+    font-size: 20px;
+    /* Tamaño de fuente del párrafo */
+    margin-bottom: 10px;
+    /* Espacio inferior del párrafo */
+    float: right;
+}
+
+.p1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+    /* Estilo de fuente en negrita para los elementos strong */
+}
+
+.ul1 {
+    margin-left: 20px;
+    /* Espacio a la izquierda de la lista */
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+
+.div-nos2 {
+    display: table-column;
+}
+
+.img_reci {
+    float: left;
+    margin-right: 10px;
+    padding-top: 1%;
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 2px;
+}
+
+h2 {
+    padding-top: 1%;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.p3 {
+    font-size: 20px;
+}
+
+
+
+
+/* ---- MAIN PRODUCTOS ---- */
+
+.main {
+    background-color: rgb(119, 227, 241);
+    font-size: 18px;
+    font-family: sans-serif;
+}    
+
+.div-prod1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-item active{
+    width: 500px;
+}
+
+.img-1{
+    width: 500px;
+    padding: 3px;
+    
+}
+
+.img-2{
+    width: 500px;
+    padding: 3px;
+    
+}
+
+.div-produc{
+    padding: 3px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
