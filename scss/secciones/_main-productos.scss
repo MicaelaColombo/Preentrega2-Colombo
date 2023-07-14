@@ -1,8 +1,36 @@
 /* ---- MAIN PRODUCTOS ---- */
 
-.main{
-    background-color: rgb(119, 227, 241)
+.main {
+    background-color: rgb(119, 227, 241);
+    font-size: 18px;
+    font-family: sans-serif;
+}    
+
+.div-prod1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-item active{
+    width: 500px;
+}
+
+.img-1{
+    width: 500px;
+    padding: 3px;
     
 }
 
-   
+.img-2{
+    width: 500px;
+    padding: 3px;
+    
+}
+
+.div-produc{
+    padding: 3px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
