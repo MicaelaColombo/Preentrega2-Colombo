@@ -291,24 +291,24 @@ h2 {
 
   .div-img {
     background-image: url(../recursos/banner-filmstretch.jpg);
-    width: 100vh;
+    width: 120vh;
 
   }
 
   .header {
-    background-color: dodgerblue;
+    background-color: rgb(7, 94, 182);
     border: 1px solid;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100vh;
+    width: 120vh;
   }
 
   .footer {
-    background-color: dodgerblue;
+    background-color: rgb(7, 94, 182);
     border: 1px solid;
-    padding: 1px;
-    width: 100vh;
+    padding: 2px;
+    width: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,5 +321,65 @@ h2 {
   .h2Inicio {
     font-size: 25px;
     padding: 15px;
+    font-family: serif;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+  main {
+    border-right: solid 2px;
+    border-color: red;
+
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .ul li {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .ul-footer li {
+    margin: 2px;
+    font-size: 10px;
+  }
+
+  .div-img {
+    background-image: url(../recursos/banner-filmstretch.jpg);
+    width: 150vh;
+
+  }
+
+  .header {
+    background-color: rgb(7, 94, 182);
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 145vh;
+  }
+
+  .footer {
+    background-color: rgb(7, 94, 182);
+    border: 1px solid;
+    padding: 2px;
+    width: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tituloPrincipal {
+    font-size: 30px;
+  }
+
+  .h2Inicio {
+    font-size: 25px;
+    padding: 15px;
+    font-family: serif;
+  }
+}
+
