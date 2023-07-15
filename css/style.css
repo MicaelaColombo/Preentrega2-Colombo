@@ -209,7 +209,7 @@ h2 {
 @media screen and (min-width: 0px) and (max-width: 680px) {
   /* Estilos específicos para dispositivos con una anchura máxima de 768px */
 
-  main{
+  main {
     border-right: solid 2px;
     border-color: red;
 
@@ -233,7 +233,7 @@ h2 {
   .div-img {
     background-image: url(../recursos/banner-filmstretch.jpg);
     width: 100vh;
-    
+
   }
 
   .header {
@@ -255,11 +255,11 @@ h2 {
     align-items: center;
   }
 
-  .tituloPrincipal{
+  .tituloPrincipal {
     font-size: 30px;
   }
 
-  .h2Inicio{
+  .h2Inicio {
     font-size: 25px;
     padding: 15px;
   }
@@ -268,5 +268,58 @@ h2 {
 }
 
 @media screen and (min-width: 681px) and (max-width: 1024px) {
+  main {
+    border-right: solid 2px;
+    border-color: red;
 
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .ul li {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .ul-footer li {
+    margin: 2px;
+    font-size: 10px;
+  }
+
+  .div-img {
+    background-image: url(../recursos/banner-filmstretch.jpg);
+    width: 100vh;
+
+  }
+
+  .header {
+    background-color: dodgerblue;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vh;
+  }
+
+  .footer {
+    background-color: dodgerblue;
+    border: 1px solid;
+    padding: 1px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tituloPrincipal {
+    font-size: 30px;
+  }
+
+  .h2Inicio {
+    font-size: 25px;
+    padding: 15px;
+  }
 }
