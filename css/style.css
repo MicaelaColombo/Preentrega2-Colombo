@@ -94,17 +94,21 @@
   background-color: #77e3f1;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: center;
   margin: 2px;
   font-family: sans-serif;
   box-shadow: 2px 2px 2px;
+  
 }
 
 .texto_nos {
   display: table-column;
   box-shadow: 2px 2px 2px;
 }
-
+@keyframes img1{
+  0% { opacity: 0; transform: translateY(-20px); } /* Estado inicial (0%) */
+  50% { opacity: 1; transform: translateY(0); } /* Estado intermedio (50%) */
+  100% { opacity: 0; transform: translateY(20px); } /* Estado final (100%) */
+}
 .img1 {
   width: 500px;
   /* Ancho de la imagen */
@@ -113,6 +117,12 @@
   margin-right: 10px;
   /* Espacio entre la imagen y el texto */
   box-shadow: 2px 2px 2px;
+  animation-name: img1;
+  animation-duration: 2s; /* Duración de la animación (2 segundos en este caso) */
+  animation-timing-function: ease; /* Función de temporización (ease, linear, etc.) */
+  animation-delay: 0s; /* Retardo antes de que comience la animación (opcional) */
+  animation-iteration-count: infinite; 
+  
 }
 
 .h1 {
@@ -136,11 +146,6 @@
   margin-bottom: 10px;
 }
 
-strong {
-  font-weight: bold;
-  /* Estilo de fuente en negrita para los elementos strong */
-}
-
 .ul1 {
   margin-left: 20px;
   /* Espacio a la izquierda de la lista */
@@ -151,7 +156,11 @@ strong {
 .div-nos2 {
   display: table-column;
 }
-
+@keyframes img_reci{
+  0% { opacity: 0; transform: translateY(-20px); } /* Estado inicial (0%) */
+  50% { opacity: 1; transform: translateY(0); } /* Estado intermedio (50%) */
+  100% { opacity: 0; transform: translateY(20px); } /* Estado final (100%) */
+}
 .img_reci {
   float: left;
   margin-right: 10px;
@@ -159,6 +168,11 @@ strong {
   width: 500px;
   height: auto;
   box-shadow: 2px 2px 2px;
+  animation-name: img_reci;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
 }
 
 h2 {
@@ -332,8 +346,9 @@ h2 {
 
 @media screen and (min-width: 1024px) and (max-width: 1440px){
   main {
-    border-right: solid 2px;
-    border-color: red;
+    width: 100%;
+    
+    
 
   }
 
@@ -354,7 +369,7 @@ h2 {
 
   .div-img {
     background-image: url(../recursos/banner-filmstretch.jpg);
-    width: 150vh;
+    width: 100%;
 
   }
 
@@ -364,14 +379,14 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 145vh;
+    width: 100%;
   }
 
   .footer {
     background-color: rgb(7, 94, 182);
     border: none;
     padding: 2px;
-    width: 150vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
